@@ -145,3 +145,29 @@ text-align:center;
   color: #aaa;
   font-size: 0.85rem;
 }
+.contact-section {
+  background: radial-gradient(circle at center, #0F3A42 0%, #0D2B35 40%, #071E27 100%);
+  color: white;
+  font-family: 'Gaegu', cursive;
+}
+
+.contact-input {
+  background-color: #0D2B35;
+  border: 1px solid #555;
+  color: white;
+  font-family: 'Gaegu', cursive;
+}
+
+.contact-input::placeholder {
+  color: #aaa;
+}
+
+.contact-section .btn-warning {
+  background-color: darkgoldenrod;
+  border: none;
+  font-family: 'Gaegu', cursive;
+}
+
+.contact-section .btn-warning:hover {
+  background-color: #b07c04;
+}
